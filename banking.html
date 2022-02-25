@@ -8,6 +8,48 @@
     <link rel="stylesheet" href="banking.css">
 </head>
 <body>
-    <button>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deserunt hic consequatur eaque culpa, consectetur earum voluptate in ratione repellat quidem inventore quis asperiores accusamus debitis saepe reprehenderit dignissimos enim!</button>
+    <header>
+        WELCOME TO <span class="web"> WEB BANK.</span>
+    </header>
+    <main>
+        <Section class="container">
+            <div class="row1">
+
+                <div class="col1 col">Deposit Amount: <br> 
+                    $<span id="total-deposit">00</span>
+                </div>
+
+                <div class="col2 col">Withdraw Amount: <br> 
+                    $<span id="total-withdraw">00</span>
+                </div>
+
+                <div class="col3 col">Balance: <br> 
+                    $<span id="balance">00</span>
+                </div>
+
+            </div>
+            <div class="row2">
+
+                <div class="col4 col">
+                    Deposit : <br> 
+                    <input type="number" id="deposit-amount" > <br>
+                    <div class="btn-container">
+                        <button id="deposit">Deposit</button>
+                    </div>
+                </div>
+
+                <div class="col5 col">
+                    Withdraw : <br> 
+                    <input type="number" id="withdraw-amount"> <br>
+                    <div class="btn-container" id="withdraw-container">
+                        <button id="withdraw">Deposit</button>
+                    </div>
+                </div>
+
+            </div>
+        </Section>
+
+    </main>
+<script src="banking.js"></script>
 </body>
 </html>
