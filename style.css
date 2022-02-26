@@ -18,7 +18,7 @@ h1{
 
 main{
     width: 20%;
-    background:linear-gradient(to right, rgba(0, 255, 255, 0.157), rgba(107, 215, 251, 0.267));
+    background-color: #e9ecef;
     padding: 80px 50px;
     border-radius: 20px;
     box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.109), 5px 5px 10px rgba(0, 0, 0, 0.109);
@@ -26,13 +26,13 @@ main{
 
 label{
     font-size: larger;
-    color: rgba(8, 0, 117, 0.479);
+    color: #343a40;
     font-weight: 600;
 }
 input{
     margin-bottom: 20px;
    width: 100%;
-   background-color: rgba(153, 153, 153, 0.096);
+   background-color: #adb5bd;
    height: 30px;
    border: none;
    border-radius: 5px;
@@ -46,9 +46,7 @@ input:focus{
     background-color: white;
 }
 
-::placeholder{
-    color: rgba(0, 11, 170, 0.26);
-}
+
 
 .btn-container{
     display: grid;
@@ -61,7 +59,7 @@ input:focus{
 }
 button{
     border: none;
-    background-color: rgba(11, 0, 170, 0.712);
+    background-color: #212529;
     padding: 15px 30px;
     color: white;
     font-weight: 700;
@@ -73,7 +71,7 @@ button{
 
 button:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
-    background-color: rgba(8, 0, 121, 0.719);
+    background-color: rgb(3, 0, 51);
 
 }
 
